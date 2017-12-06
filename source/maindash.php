@@ -89,7 +89,7 @@
 	  
 	  
 	<div id ="error-res" style="display:none; position: relative;float: left;top: 50%;left: 50%;transform: translate(-50%, -50%);color: black;font-family: 'Rokkitt', serif; ">
-					<font style="color:black">Error - Improper input files / Source not found</font><font id="text-res-7.1"></font><br>					
+		<font style="color:black">Error - Improper input files / Source not found</font>
 	</div>
 	
 	<font style="display:none" id="mark-pass">&#9989;</font>
@@ -105,7 +105,7 @@
 	</div>
 	
   <div id ="errorText" style="display:none; color: white; position: relative;float: left;top: 50%;left: 50%;transform: translate(-50%, -50%); font-family: 'Rokkitt', serif;">
-  <p style="font-size: 200%;">ERROR</p>
+  <p style="font-size: 200%;">ERROR - IMPROPER INPUT</p>
   </div>	
 	
 	
