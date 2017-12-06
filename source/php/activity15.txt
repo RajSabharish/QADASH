@@ -1,0 +1,7 @@
+Failed
+[u'6APP-20-08-FNO-001pysub/Nokia-COM_FNO1']
+Pass
+NULL
+Pass
+NULL
+Failed

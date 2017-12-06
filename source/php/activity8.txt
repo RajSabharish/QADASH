@@ -1,0 +1,5 @@
+Failed
+{'Civil - NBN Trenches': [], 'Plant - Cables': [], 'Plant - Equipment': ['Project Name:1', 'Project Number:1', 'Constructed Actual Date:1', 'Batch Number:3'], 'Civil - NBN Ducts': [], 'Civil - NBN Pits': []}
+Pass
+NULL
+Failed

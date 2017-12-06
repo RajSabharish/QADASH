@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sign Up For Beta Form</title>
+    <title>QA Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
@@ -22,7 +22,7 @@ form {
 
 
 .header {
-  font-size: 35px;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -102,24 +102,10 @@ input:focus {
 			
 			var SAM = document.getElementById("sam").value;
 			var http = new XMLHttpRequest();
-			var url = "beginsam.php";
 			var prefix = "SAM=";
 			var params = prefix.concat(SAM);
+			window.location.href = 'maindash.php' + '#' + SAM;
 						
-			http.onload = function() {
-				var resultArray = JSON.parse(this.responseText);				
-				if((resultArray.result).localeCompare('Success')==0)
-				{	
-					window.location.href = 'dashboard.php' + '#' + SAM;
-				}
-				else
-				{
-					alert('FAIL');
-				}
-			};
-			http.open("POST", url, true);
-			http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");		
-			http.send(params);
 		}
 	</script>
   </body>
